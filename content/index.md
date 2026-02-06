@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Welcome!
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+[[Video Game Design/CS 6457]]
+[[PSYC 2760]]
+[[CS 3235]] Info Security

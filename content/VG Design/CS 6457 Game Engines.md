@@ -1,6 +1,4 @@
----
-up: "[[CS 6457]]"
----
+Breadcrumbs: [[CS 6457]]
 ## Introduction
 ### Early Game Engine
 - Computation kernel that runs the game

@@ -10,6 +10,7 @@ Breadcrumbs: [[CS 6457]]
 - Early form evolved over many years
 - Human actors or puppets moving in front of light source
 - Shadows projected onto viewing surface or translucent backdrop
+
 **Puppetry:**
 - Long tradition dating back at least 4,000 years (possibly further)
 - Articulated artifacts controlled by strings, sticks, or directly (sock puppets)
@@ -22,6 +23,7 @@ Breadcrumbs: [[CS 6457]]
 - Later evolution: mechanical components added to plates
 - Multiple glass layers could be moved with levers/dials
 - Each animated slide was one-off with specific mechanics
+
 **Evidence:**
 - 1659 sketch of skeleton showing frames of animation for magic lantern slide
 #### Automata
@@ -30,6 +32,7 @@ Breadcrumbs: [[CS 6457]]
 - Similar technology to clocks: gears, levers, wind-up springs, weight-based powering
 - Popular antiques, found in music boxes
 - Some elaborate examples: automata that can write signatures
+
 **Modern Evolution:**
 - Da Vinci's mechanical lion plans (recreated in modern times)
 - Disney animatronics in theme parks (Hall of Presidents, Pirates of Caribbean)
@@ -43,6 +46,7 @@ Breadcrumbs: [[CS 6457]]
 - Look through slit while spinning
 - Each slit aligns eye with one image at a time
 - Frames are curved shapes (non-rectangular)
+
 **Content:**
 - Limited narratives: man riding horse, bird flying
 - Single figure in motion
@@ -69,6 +73,7 @@ Breadcrumbs: [[CS 6457]]
 - Shutter opens after film stops, exposes to light, then closes
 - Film accelerates to next frame
 - Creates mechanical noise from rapid acceleration/deceleration
+
 **Challenges:**
 - Avoid vibrations during light exposure
 - Timing for smooth capture
@@ -92,10 +97,12 @@ Breadcrumbs: [[CS 6457]]
 - Captures each frame one at a time
 - Photographs individual drawn frames
 - Plays back at appropriate speed
+
 **Benefits:**
 - Gets perspective and dimensions correct following human movement
 - Nice smooth animations
 - Seamless transitions between rotoscoping and artistic embellishment
+
 **Fleischer Studios:**
 - first use of rotoscoping
 - Created Coco the Clown (early example)
@@ -106,12 +113,14 @@ Breadcrumbs: [[CS 6457]]
 - Used rotoscoping in earliest movies
 - Example: Snow White - actress Marge Champion performed all captured footage
 - Edges traced using Fleischer's rotoscope technology
+
 **Transition to Live Action Reference:**
 - Disney moved away from precise rotoscoping
 - Filmed actors but used artistic interpretation instead of precise tracing
 - Focused on specific aspects: physical performance, facial expressions
 - Could exaggerate and have more control than being confined by silhouette constraints
 - Example: Alice in Wonderland
+
 **Why Disney Abandoned Rotoscoping:**
 - Snow White vs. Dwarfs comparison shows distinct difference
 - Snow White lacks expressiveness and detail compared to dwarfs
@@ -126,6 +135,7 @@ Breadcrumbs: [[CS 6457]]
    - Some aspects occur in real life (person squatting before jump, stretching during leap)
 2. **Exaggeration:**
    - Combined with squash and stretch for great effects
+
 **Other Principles:**
 - Important for storytelling: anticipation, staging, etc.
 ### Early Interactive Animation
@@ -144,15 +154,18 @@ Breadcrumbs: [[CS 6457]]
 - Showed: elevation, speed, airplane angle
 - Responded to user controls with tactile feedback
 - Elaborate state machine implementation
-**Aetna Drive-O Trainer:**
+
+**Aetna Drive-O Trainer:**  
 **Technology:**
 - First-person perspective of driving projected on screen
 - Simulated controls: steering wheel, gas pedal, gear change
+
 **Classroom Use:**
 - Multiple students with own steering wheels
 - Shared viewing experience
 - Respond correctly within time window (like QuickTime events)
 - Scoring: contraption punched holes in card, run through card reader for pass/fail
+
 **Interactive Feature:**
 - Special single-projector, single-student configuration
 - Film reel advance controlled by user input
@@ -182,6 +195,7 @@ Breadcrumbs: [[CS 6457]]
 - Used discrete logic (not CPU) - wiring logic gates together
 - Very limited graphics: could only draw lines or axis-aligned polygons
 - Extremely difficult development due to discrete logic constraints
+
 **Taito Basketball (1974)**
 - First game to use sprites
 - First game to feature human form on screen
@@ -194,6 +208,7 @@ Breadcrumbs: [[CS 6457]]
 - No graphical capabilities
 - Extended character set included line segments and fill patterns for organizing text
 - Creative developers used these to create games
+
 **Castle Adventure (1984):**
 - Everything on screen is a text character
 - Character data swapped quickly for animation effects
@@ -203,6 +218,7 @@ Breadcrumbs: [[CS 6457]]
 - Examples: Super Mario Brothers, Street Fighter 2
 - Introduced color and animated sprites
 - Animated sprites: swapping from one sprite to next in similar poses
+
 **Technical Implementation:**
 - Early systems: sprites referenced color palette (not RGB values directly)
 - Limited memory - couldn't store full RGB frame buffer
@@ -210,6 +226,7 @@ Breadcrumbs: [[CS 6457]]
 - Special hardware support with dedicated channels for efficient sprite copying
 - Limitations: maximum number of sprites per frame, rectangular axis-aligned dimensions only
 - No sprite rotation until later systems
+
 **Aesthetic Legacy:**
 - Modern games could rotate/scale sprites and use full RGB colors
 - Typically don't for authenticity to 8-bit/16-bit aesthetic
@@ -230,6 +247,7 @@ Breadcrumbs: [[CS 6457]]
 - Very high quality graphics (all benefits of traditional animation)
 - Computer interpreted joystick/buttons for QuickTime events
 - Could jump between scenes quickly if optimized on disc layout
+
 **Gameplay:**
 - Limited interactivity - correct response or death scene
 - Extremely popular in arcades, drew big crowds
@@ -237,6 +255,7 @@ Breadcrumbs: [[CS 6457]]
 - Short lifespan - sacrificed too much interactivity as technology improved
 #### Rotoscoped Gaming
 **Definition:** Tracing over live-action footage frame-by-frame for realistic animation
+
 **Notable Examples:**
 - Karateka (1984): Early work by Jordan Mechner, limited frames due to memory constraints
 - Prince of Persia (1989): Jordan Mechner's brother as source for prince, Errol Flynn's Robin Hood for fighting
@@ -246,6 +265,7 @@ Breadcrumbs: [[CS 6457]]
 	- Sacrificed some control compared to sprite-based games
 - Another World/Out of This World: Eric Chahi filmed himself, created own rotoscoping tools
 - Flashback (1992): Popular, available on Nintendo Switch
+
 **Amiga Dragon's Lair Port:**
 - Computer-supported rotoscoping for Amiga (and other platforms)
 - Vectorized foreground characters from LaserDisc frame-by-frame
@@ -275,10 +295,12 @@ Breadcrumbs: [[CS 6457]]
 - Scaled for distance
 - Multiple perspectives captured (front, back, left, right, angles)
 - Swapped based on viewing angle
+
 **Wing Commander:**
 - Space combat with scaled/rotated sprite spaceships
 - Rough look but conveyed 3D spatial dimension
 - Many different perspective angles needed
+
 **Problem:** Huge number of angles needed for full 3D rotation
 - Motivated transition to proper 3D models
 ### Quake (Early 3D Animation)
@@ -288,6 +310,7 @@ Breadcrumbs: [[CS 6457]]
 - Each frame: array of ordered vertices applied to triangle mesh
 - Triangles reference vertex indices, not actual positions
 - Very few triangles/vertices due to memory constraints
+
 **Storage:**
 - Each animation frame stores complete vertex table
 - Not scalable - memory consumption explodes with more vertices
@@ -295,16 +318,19 @@ Breadcrumbs: [[CS 6457]]
 ### Computer-Assisted Animation
 #### Procedural Animation
 **Definition:** Write algorithm to animate object
+
 **Best For:**
 - Straightforward, repeating animations
 - Clocks and machinery (cyclic movement)
 - Hovercrafts (sinusoidal movements)
 - Sometimes easier than authoring system
+
 **Example:** Uncharted 4 clock tower (likely procedural for gears)
 #### Physically-Based Animation
 **Definition:** Integration with physics simulation
 - e.g. masses, forces, inertial properties
 - Realistic but difficult to control
+
 **Example:** Just Cause 3
 - Grappling hook attaches characters to exploding propane tanks
 - Characters carried off by physics
@@ -317,13 +343,16 @@ Breadcrumbs: [[CS 6457]]
 - Captures styles, subtle nuances and realism
 - You must observe someone do something
 - Difficult to edit
+
 **Comparison to Rotoscoping:**
 - Rotoscoping lacks full 3D data
 - Could rotoscope from multiple perspectives (manual mocap)
 - Modern mocap uses computer vision
+
 **Examples:**
 - Naughty Dog (Last of Us, Uncharted): facial expressions and full body capture
 - 4D Boxing (early 90s): possibly rotoscoping from multiple perspectives, very fluid animations
+
 **Teddy (1999-2000):**
 - Draw on screen, generates 3D
 - Assumes symmetries and minimal volume
@@ -335,26 +364,31 @@ Breadcrumbs: [[CS 6457]]
 - Skeleton stored instead of all vertices
 - Mesh can be arbitrarily complex
 - Much more memory efficient
+
 **Storage Requirements:**
 - Root bone (hip): 3 or 6 degrees of freedom (rotation only, or rotation + translation for root motion)
 - Other bones: 1-3 degrees of freedom depending on joint type
 - Keyframes store only skeleton pose (array of floats)
 - Can interpolate for arbitrary frame rates
+
 **Mesh Deformation:**
 - Each vertex has weighted list of bones (typically max 2-4 bones)
 - Weights determine influence of each bone on vertex
 - Example: elbow vertices weighted between upper arm and forearm bones
 - Rigging: process of aligning skeleton and assigning bone weights
+
 **Advantages:**
 - Huge memory savings vs. mesh animation (Quake MDL format)
 - Works well with animation blending
 - Animation portability/reuse (not tied to specific mesh)
 - Simplified authoring (work with simple skeleton)
 - Inverse kinematics support
+
 **Disadvantages:**
 - Implementation difficulty
 - Computational overhead (but can offload to GPU for parallelization)
 - Realistic mesh deformations difficult (e.g., elbow self-intersection)
+
 **Half-Life (1998):**
 - One of first games to effectively use skeletal animation
 - Enabled in-game cutscenes and novel alien creatures
@@ -363,6 +397,7 @@ Breadcrumbs: [[CS 6457]]
 ### Advanced Animation Techniques
 #### Squash and Stretch in 3D
 **Challenge:** Traditional animation principle difficult with skeletal animation
+
 **Solution:**
 - Add scaling factors to bones (additional degrees of freedom)
 - Add extra bones for body deformation
@@ -372,17 +407,20 @@ Breadcrumbs: [[CS 6457]]
 	- Compresses into ball at apex
 	- Stretches again during fall
 	- Daxter's body reinforces arc of jump
+
 **Trade-off:** Increased memory for additional degrees of freedom, but achievable
 #### Root Motion
 **Concept:**
 - Root bone includes translation (6 degrees of freedom: XYZ translation + XYZ rotation)
 - Animation moves character through environment
 - Game engine interprets root motion incrementally frame-to-frame
+
 **How It Works:**
 - Detect offset from root motion
 - Re-center model to game object
 - Game object moves according to animation
 - Capsule collider follows animation
+
 **Benefits:**
 1. Prevents foot sliding/skating
    - Walking/running has sinusoidal speed variation (accelerate when falling forward, decelerate when foot lands)
@@ -394,6 +432,7 @@ Breadcrumbs: [[CS 6457]]
 3. Authoring benefits
    - Artist controls character movement
    - Declarative approach (no code needed)
+
 **Constraints (Unity):**
 - Root transform projected from hip bone onto Y plane (ground)
 - Can enable/disable per dimension (e.g., XZ only, not Y for gravity)
@@ -404,20 +443,24 @@ Breadcrumbs: [[CS 6457]]
 - Interpolate between multiple animations in real-time
 - Weighted average creates smooth transitions
 - Maps well to analog controls (joystick)
+
 **Example:**
 - Full forward joystick: 100% running forward animation
 - Slight left deflection: 90% forward, 10% hard left turn
 - Full left: 100% hard left turn animation
+
 **Implementation (Unity Blend Tree/Map):**
 - Map user inputs (XY joystick) to blended animations
 - Define interpolation points in coordinate system
 - All declarative, no programming needed
 - Works with root motion
+
 **Benefits:**
 - Less authoring/mocap work
 - Less storage requirements
 - Continuous space of animation types
 - Full envelope of character movement
+
 **Bunny Hop Problem:**
 - Occurs when blending dissimilar animations
 - Both feet move together unnaturally
@@ -428,26 +471,31 @@ Breadcrumbs: [[CS 6457]]
 - Clip lengths don't need to match (normalized timeline)
 #### Animation Masks and Layers
 **Purpose:** Blend dissimilar animations without bunny hop issues
+
 **Use Case:**
 - Upper body: rifle firing animation
 - Lower body: walking, running, crouching animations
 - Record rifle firing from standing position
 - Mask isolates upper body for blending
+
 **Benefits:**
 - Minimize mocap work
 - Reduce storage (fewer animation permutations)
 - Works with inverse kinematics
 #### Match Targets
 **Purpose:** Align animations precisely with world coordinates
+
 **Problem:**
 - Character jumping to grab ledge
 - Player input position varies
 - Need real-time correction
+
 **Solution:**
 - Identify target position in animation timeline
 - Set world coordinate goal for bone (e.g., hand)
 - Apply linear interpolation (LERP) correction over time
 - Correction proportional to animation progress
+
 **Use Cases:**
 - Grabbing ledges
 - Landing jumps precisely
@@ -458,46 +506,55 @@ Breadcrumbs: [[CS 6457]]
 - Parent dictates transform
 - Children follow in hierarchy
 - Standard scene graph operations
+
 **Inverse Kinematics:**
 - Set position of leaf node (e.g., hand)
 - Calculate parent transforms backwards
 - Non-trivial to compute
+
 **Challenges:**
 1. Sometimes impossible to solve
 2. Ambiguous - infinitely many valid solutions
    - Example: Hand reaching flashlight - many valid elbow positions
-3. Joint wobbling/snapping between solutions
+1. Joint wobbling/snapping between solutions
+
 **Unity Implementation:**
 - Built-in IK limited to humanoid extremities
 - Can set: left/right foot, left/right hand positions/rotations
 - Special "look at" for head
 - Position weight and rotation weight control override
+
 **Use Cases:**
 - Pressing buttons at various heights
 - Picking up objects
 - Adjusting feet on varied terrain
 - Character looking at targets (head tracking)
 - Authoring: drag hand, arm follows
+
 **Technique:**
 - Play base animation (e.g., button press at waist height)
 - Weight ramps up as hand approaches target position
 - IK overrides to actual button position
 - Weight = 0: animation only
 - Weight = 1: IK fully controls
+
 **Notable Early Examples:**
 - Terra Nova: Feet controlled by animation + IK correction, torso hovers on capsule collider
 - Trespasser: Dinosaurs use box colliders, ray cast for foot ground detection, extends/bends legs
 #### Retargeting Skeletal Animation
 **Problem:** Mocap skeleton dimensions must match rigged model
+
 **Solution: Muscle Space (Unity):**
 - Define joint limits for each skeleton
 - Set defaults, allow overrides in Avatar
 - Normalize joint movement in animation keyframes
 - Map to new skeleton with its constraints
+
 **Effectiveness:**
 - Generally works 80-90% of time
 - May have inter-penetration issues (e.g., Rufus from Street Fighter IV - folded arms)
 - Some tools allow corrections
+
 **Benefits:**
 - Reuse humanoid animations across different character models
 - Grab animations from various sources
@@ -506,10 +563,12 @@ Breadcrumbs: [[CS 6457]]
 - Intuitive to think about
 - Gimbal lock: certain configurations prevent desired rotations
 - Example: First-person shooter looking straight up - can't turn left/right
+
 **Solution: Quaternions:**
 - Avoid gimbal lock
 - Reliable linear interpolation
 - Essential for blending animations
+
 **Why Game Engines Use Quaternions:**
 - Can convert quaternion to Euler
 - Flexible rotation representation
